@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #3498db; /* Blue color scheme */
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px 40px 20px 20px; /* Padding added on the right side */
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  color: #fff;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.container:hover {
+  background-color: #2980b9; /* Darker shade on hover */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.option {
+  flex-basis: calc(50% - 10px);
+  margin-bottom: 10px;
+}
+
+.option label {
+  display: inline;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #b7e73c;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 16px;
+  outline: none;
+}
