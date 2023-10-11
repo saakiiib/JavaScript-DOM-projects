@@ -21,6 +21,5 @@ To use these projects, follow the steps below:
 
 Contributions are always welcome! Feel free to fork the repository and submit a pull request with your changes or additions.
 
-Let's code the future together! 🚀
 
 
